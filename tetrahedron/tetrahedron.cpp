@@ -57,8 +57,8 @@ int main() {
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LESS);
 
-    GLuint programID = LoadShaders( "../playground/homework/tetrahedron.vertexshader",
-                                    "../playground/homework/tetrahedron.fragmentshader" );
+    GLuint programID = LoadShaders( "../playground/homework/tetrahedron/tetrahedron.vertexshader",
+                                    "../playground/homework/tetrahedron/tetrahedron.fragmentshader" );
     GLuint MatrixID = glGetUniformLocation(programID, "MVP");
 
     static const GLfloat g_vertex_buffer_data[] = {
