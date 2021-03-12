@@ -1,3 +1,6 @@
+/* watch the animation here:
+ * https://youtu.be/9Ic5YB3AJEc
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
